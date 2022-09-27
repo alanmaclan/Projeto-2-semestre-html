@@ -1,0 +1,100 @@
+/*
+ * Globals
+ */
+
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #faeddf;
+  text-shadow: none; /* Prevent inheritance from `body` */
+   
+  
+}
+.fw-bold{
+	border-radius: 30px;
+}
+
+.px-3 {
+	position: absolute; 
+	top: 300px;
+}
+
+
+#imgpos { /*imagem do carro*/
+	position: absolute; 
+	right: 230px; /* posiciona a 90px para a esquerda */ 
+	top: 150px; /* posiciona a 70px para baixo */
+	}
+
+#imguser { /*imagem do usuario*/
+	border-radius: 30px;
+	position: absolute; 
+	left: 200px;  
+	top: 700px;
+}	
+	
+
+.texto3{ 
+	position: relative; 
+	top: -300px;
+	font-size: 40px;
+	color: #10100f;
+}
+.texto4{
+	position: relative;
+	left:-300px;
+	top:-270px;
+	font-size: 30px;
+	color: #10100f;
+}
+
+.texto5{
+	position: relative;
+	right:-200px;
+	top:-370px;
+	font-size: 30px;
+	color: #10100f;
+}
+
+/*
+ * Base structure
+ */
+
+body {
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+}
+
+.cover-container {
+  max-width: 65em;
+  padding: 60px 15px 0;
+  background: #69B7F0;
+  min-height: 300vh;
+  position: static;
+}
+
+
+/*
+ * Header
+ */
+
+.nav-masthead .nav-link {
+  color: rgba(255, 255, 255, .5);
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
